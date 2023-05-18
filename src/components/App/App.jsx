@@ -27,7 +27,6 @@ export default function App() {
         setBad(prevState => prevState + 1);
         break;
       default:
-        console.log(`No option called ${option}`);
         break;
     }
   };
